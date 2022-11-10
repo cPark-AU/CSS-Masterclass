@@ -14,8 +14,11 @@ When using [ align-items: center; ] make sure the height of the container is hig
 Once the height is assigned to the container, we can observe that the boxes are aligned to the center of
 the cross axis.
 
-\\ align-items 
+<i>align-items</i>
+
 [ align-items: flex-end; ] - places items on the end of the cross axis
+
 [ align-items: flex-start; ] - places items on the start of the cross axis (default)
+
 [ align-items: center; ] - places items on the center of the cross axis
-\\
+
