@@ -7,7 +7,7 @@ In flexbox, there are two axes, one is the main-axis (horizontal) and the other 
 The default flex-direction of flexbox is row (horizontal) and to change the location of the children, 
 justify-content is used and for columns (vertical), align-items is used.
 
-<b><i><u>flex-direction:</u></i></b>
+<b><i><ins>flex-direction:</ins></i></b>
 
 <b>[ flex-directon: row; ]</b> - the main axis is horizontal and the cross axis is vertical 
 
@@ -17,7 +17,7 @@ justify-content is used and for columns (vertical), align-items is used.
 
 <b>[ flex-directon: column-reverse; ]</b> - reverses the direction of column
 
-<b><i><u>align-items:</u></i></b>
+<b><i><ins>align-items:</ins></i></b>
 
 When using <b>[ align-items: center; ]</b> make sure the height of the container is higher than the boxes inside.
 
@@ -30,19 +30,19 @@ the cross axis.
 
 <b>[ align-items: center; ]</b> - places items on the center of the cross axis
 
-<b><i><u> align-content </b></i></u>
+<b><i><ins> align-content </b></i></ins>
 
 align-content modifies the lines. When the line breaks, the space between the lines is what can be modified.
 
-<b><i><u>align-self</u></i></b>
+<b><i><ins>align-self</ins></i></b>
 
 align-self works exactly like align-items, this means cross axis, but only for one box which is given to a child class. 
 
-<b><i><u>order</u></i></b>
+<b><i><ins>order</ins></i></b>
 
 order is use to change the order of boxes without changing the html itself. 
 
-<b><i><u>flex-wrap</b></i></u>
+<b><i><ins>flex-wrap</b></i></ins>
 
 flex-wrap determines the nature of flex, where flex will attempt to modify the width of the children elements to fit them all in one line.
 
@@ -52,13 +52,13 @@ flex-wrap determines the nature of flex, where flex will attempt to modify the w
 
 <b>[ flex-wrap: reverse; ]</b> - reverses wrapping
 
-<b><i><u>flex-shrink</b></i></u>
+<b><i><ins>flex-shrink</b></i></ins>
 
 Applied to a child elemenet. Defines the behaviour of a element when flexbox tries to squeeze them. 
 
 <b>[ flex-shrink: 2; ]</b> - the element will squeeze 2x more than other elements in its line
 
-<b><i><u>flex-grow</b></i></u>
+<b><i><ins>flex-grow</b></i></ins>
 
 flex-grow is the same as flex-shrink but the opposite. It determines how much a element can grow. flex-grow triggers when there is only space that the box can grow, otherwise it will shrink to the same size as other elements.
 
