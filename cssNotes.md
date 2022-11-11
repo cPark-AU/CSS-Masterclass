@@ -64,7 +64,7 @@ flex-grow is the same as flex-shrink but the opposite. It determines how much a 
 
 <b>[ flex-grow: 0; ]</b> - the default value is 0
 
-<b><i><u>flex-basis</b></i></u>
+<b><i><ins>flex-basis</b></i></ins>
 
 flex-basis is like width, however it only sets the initial size before the element is expanded or shrunk. flex-basis is always applied on the main axis (flex-direction). 
 
