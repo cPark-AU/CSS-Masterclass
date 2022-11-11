@@ -29,9 +29,10 @@ the cross axis.
 <b><i>align-self</i></b>
 
 align-self works exactly like align-items, this means cross axis, but only for one box which is given to a child class. For example:
+
 <b> 
-.child:nth-child(2) {
-    align-self: center;
+.child:nth-child(2) { <br> </br>
+    align-self: center; <br></br>
 }
 </b>
 
