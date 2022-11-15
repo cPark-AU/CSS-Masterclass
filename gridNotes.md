@@ -1,1 +1,10 @@
+<h3>grid</h3>
+
+grid is similar to flexbox where we want to always talk to the parent element to change what happens to the children elements.
+
+<b>[ grid-template-columns: 20px 55px 89px 100px; ] </b> - This is used to change the width of elements. We can change the number of columns in a row by adding or removing values.
+
+<b>[ grid-template-rows: 100px 50px 300px; ] </b> - This is used to change height of elements. We can also use <i>repeat(3, 200px)</i> to repeat the same values.
+
+<b>[ column-gap: ; row-gap: ; gap: ; ]</b> - The column-gap and row-gap provide a gap for its respective name and gap is used for both column and row
 
