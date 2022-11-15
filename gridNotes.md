@@ -12,4 +12,20 @@ grid is similar to flexbox where we want to always talk to the parent element to
 
 ![image](https://user-images.githubusercontent.com/107847685/201828273-38de9bc6-cc9a-48f8-9ec1-81224712f0be.png)
 
-hello
+<b>[ grid-column-start: 1; ]</b> - this tells the element at which line it should start.
+
+<b>[ grid-column-end: 5; ]</b> - this tells the element at which line it should end.
+
+<b>[ grid-row-start: 2; ]</b> - similar to grid-column-start but for row
+
+<b>[ grid-row-end: 4; ]</b> - similar to grid-column-end but for row
+
+Like above, we can do similar things but in a much easier fashion:
+
+<b>[ grid-row: 2 / 4; ]</b> - tells the element that it starts at line 2 and ends at line 4
+
+<b>[ grid-column: 1 / -1; ]</b> - tells the element to go from start to the end. (- sign starts from the end). We can also use [ span 4 ] to tell the element that it takes up 4 grids.
+
+When setting up grid-template we can do the following to name each line and refer back to them to select the start and end points:
+
+<b>[ grid-template-columns: [first-line] 100px [second-line] 200px; ]</b>
