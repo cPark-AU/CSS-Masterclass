@@ -6,5 +6,6 @@ grid is similar to flexbox where we want to always talk to the parent element to
 
 <b>[ grid-template-rows: 100px 50px 300px; ] </b> - This is used to change height of elements. We can also use <i>repeat(3, 200px)</i> to repeat the same values.
 
-<b>[ column-gap: ; row-gap: ; gap: ; ]</b> - The column-gap and row-gap provide a gap for its respective name and gap is used for both column and row
+<b>[ column-gap:  row-gap:  gap:  ]</b> - The column-gap and row-gap provide a gap for its respective name and gap is used for both column and row
 
+![image](https://user-images.githubusercontent.com/107847685/201828273-38de9bc6-cc9a-48f8-9ec1-81224712f0be.png)
