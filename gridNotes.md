@@ -8,4 +8,6 @@ grid is similar to flexbox where we want to always talk to the parent element to
 
 <b>[ column-gap:  row-gap:  gap:  ]</b> - The column-gap and row-gap provide a gap for its respective name and gap is used for both column and row
 
+<b>[ grid-template-areas: ] </b> - We tell the class for the grid-template-areas what they are ( grid-area: 'header'; ) for grid-template-areas to know what it is dealing with.
+
 ![image](https://user-images.githubusercontent.com/107847685/201828273-38de9bc6-cc9a-48f8-9ec1-81224712f0be.png)
